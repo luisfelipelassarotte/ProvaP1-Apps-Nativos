@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:hint="Valor para Contribuir" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#4CAF50"
+        android:textStyle="bold"
+        android:id="@+id/valor_contribuicao_id"
+        android:hint="Contribuição Mensal" />
+
+
+
+    <TextView
+        android:layout_marginTop="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:hint="Valor a receber ao se aposentar" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:id="@+id/valor_montante_inicial_id"
+        android:hint="Montante Inicial" />
+
+
+    <TextView
+        android:layout_marginTop="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:hint="Valor da taxa de juros Anual e Mensal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:id="@+id/valor_taxa_juros_anual_id"
+        android:hint="Juros Anual" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:id="@+id/valor_taxa_juros_mensal_id"
+        android:hint="Juros Mensal" />
+
+    <TextView
+        android:layout_marginTop="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:hint="Tempo de Contribuição Anos/Meses" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:id="@+id/tempo_aplicado_anos_id"
+        android:hint="tempo ano" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:id="@+id/tempo_aplicado_meses_id"
+        android:hint="tempo meses" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <!-- Outros elementos aqui -->
+
+        <Button
+            android:id="@+id/voltar_id"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:background="@drawable/rounded_button"
+            android:hint="Voltar" />
+
+    </RelativeLayout>
+
+</LinearLayout>

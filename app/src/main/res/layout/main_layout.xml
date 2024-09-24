@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_marginTop="25sp"
+        android:textStyle="normal"
+        android:textSize="14sp"
+        android:layout_marginLeft="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tituloMonante" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#4CAF50"
+        android:background="@null"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:hint="R$"
+        android:inputType="numberDecimal"
+        android:id="@+id/montante_desejado_id" />
+
+    <TextView
+        android:layout_marginTop="25sp"
+        android:textStyle="normal"
+        android:textSize="14sp"
+        android:layout_marginLeft="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tituloData" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tempo_aplicado_id"
+        android:textSize="17sp"
+        android:background="@null"
+        android:layout_marginLeft="30sp"
+        android:hint="Dia/Mês/Ano"
+        android:focusable="false"
+        android:clickable="true" />
+
+
+    <TextView
+        android:layout_marginTop="25sp"
+        android:textStyle="normal"
+        android:textSize="14sp"
+        android:layout_marginLeft="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tituloTaxaAual" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:background="@null"
+        android:layout_marginLeft="30sp"
+        android:hint="Taxa de Juros Anual"
+        android:id="@+id/taxa_juros_anual_id" />
+
+    <Button
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:background="@drawable/rounded_button"
+        android:hint="Calcular"
+        android:id="@+id/calcular_id" />
+
+</LinearLayout>
